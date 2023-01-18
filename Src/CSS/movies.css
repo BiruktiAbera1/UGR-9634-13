@@ -1,0 +1,203 @@
+body {
+    background-color: grey;
+}
+img {
+    max-width: 10%;
+    max-height: 5%;
+}
+.search form {
+    top: 0;
+    right: 0;
+}
+ button.relative {
+    color:deepskyblue;
+    top: 0;
+    right: 0;
+}
+.container__header--h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+.container__navigation {
+    padding: 0px;
+    background-color: grey;
+    grid-area: nav;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin: 0;
+
+}
+.container__navigation--a {
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.container__navigation--list {
+    display: flex;
+    list-style: none;
+    padding: 10%;
+    margin: 0 auto;
+    align-items: center;
+    flex-flow: column wrap;
+    right: 0;
+    margin-top: 70%;
+}
+.container__navigation--li {
+    margin: 5px 0;
+    padding: 5%;
+    flex-flow: row wrap;
+}
+.container__navigation--medialist {
+    margin-left: auto;
+    order: 5;
+    align-self: center;
+}
+.navigation--medialist--list {
+    display: flex;
+    list-style: none;
+    padding: 0em;
+    margin: 0;
+    align-items: center;
+    justify-items: right;
+
+}
+.container__main--h2 {
+    text-align: center;
+}
+.Movie--image {
+    margin: 0;
+}
+.container__main {
+    padding: 10px;
+}
+.single--movies:hover {
+    opacity: 70%;
+}
+.Movie--image {
+    height: 200%;
+    width: 200%;
+    border-radius: 10px;
+}
+.container__main--a{
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+@media screen and (max-width: 379px){
+    .detail_text--movie {
+        text-align: left;
+        margin: 0 10px;
+        margin-bottom: 30px; 
+        font-size: larger;
+        font-weight: bold;       
+    }
+    .detail_text--movie {
+        border: 2px solid aqua;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding: 10px 0;
+        height: auto;
+        width: 80%;
+    }
+    .single--movies {
+        margin: 50px auto auto auto;
+        text-align: left;
+        background-color: aqua;
+        height: auto;
+        width: 80%;
+    }
+    .container__main--singleMovies {
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media screen and (min-width: 1025px) {
+    .Movie--image {
+        border-radius: 15px;
+    }
+    .container__main--singleMovies {
+        width: 80%;
+        height: auto;
+    }
+    .container__main--singleMovies {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;       
+    }
+    .single--movies {
+        order: 1;
+        width: 45%;
+    }
+    .detail_text--movie {
+        text-align: left;
+        margin: 0 15px;
+        font-size: larger;
+        font-weight: bold;    
+    }
+    .single--movies {
+        text-align: left;
+        background-color: aqua;
+        height: 100%;
+        border: 5px solid aqua;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container__main--singleMovies {
+        width: 80%;
+        height: auto;
+    }
+    .container__main--singleMovies {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;  
+    }
+    .single--movies{
+        order: 1;
+        width: 40%;
+    }
+    .detail_text--movie {
+        text-align: left;
+        margin: 0 10px;
+        font-size: larger;
+        font-weight: bold;  
+    }
+    .single--movies {
+        text-align: left;
+        background-color: aqua;
+        height: 100%;
+        border: 5px solid aqua;
+        border-radius: 10px;
+    } 
+
+}
+@media screen and (min-width: 1025px){
+    .Movie--image {
+        border-radius: 15px;
+    }
+    .container__main--singleMovies {
+        width: 80%;
+        height: auto;
+    }
+    .container__main--singleMovies {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;       
+    }
+    .single--movies {
+        order: 1;
+        width: 45%;
+    }
+    .detail_text--movie {
+        text-align: left;
+        margin: 0 15px;
+        font-size: larger;
+        font-weight: bold;    
+    }
+}

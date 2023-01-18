@@ -1,0 +1,244 @@
+body {
+    background-color: cadetblue;
+}
+.container__header--h1 {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0em;
+    font-size: 500%
+}
+
+.logo { 
+         background: url("/path") no-repeat; 
+         width: 200px; 
+         height: 200px; 
+         display: block; 
+         text-indent: -9999px;
+}
+img {
+    max-width: 10%;
+    max-height: 5%;
+}
+.search form {
+    top: 0;
+    right: 0;
+}
+ button.relative {
+    color:deepskyblue;
+    top: 0;
+    right: 0;
+}
+.container__main--h1:hover {
+    color: gold;
+}
+
+.container__main--h1 {
+    text-align: center;
+    text-shadow: 0em;
+}
+a {
+    margin: 0.3em;
+    text-decoration: none;
+    font-size: 20px;
+    color:greenyellow;
+}
+.container__main--div img{
+    position: relative;
+    width: 100%;
+    height:auto;
+}
+img[src^="images/Movie.jpg"] {
+    border: 10px solid black;
+    margin: 10px;
+    width: 100%;
+@media all and (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+}
+a {
+    margin: 0.3em;
+    text-decoration: none;
+    font-size: 20px;
+    color:darkolivegreen;
+}
+.container__navigation {
+    padding: 10px;
+    background-color: grey;
+    grid-area: nav;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin: 0;
+
+}
+.container__navigation--a {
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.container__navigation--list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.container__main--p-bottom {
+    position: relative;
+    margin-right: 10px;
+    text-align: right; 
+}
+.container__navigation--li {
+    margin: 5px 0;
+}
+.container__navigation--medialist {
+    margin-left: auto;
+    order: 5;
+    align-self: center;
+}
+.navigation--medialist--list {
+    display: flex;
+    list-style: none;
+    padding: 0em;
+    margin: 0;
+    align-items: center;
+    justify-items: right;
+
+}
+.container__main--p-top {
+    position: relative;
+    bottom: 10px;
+    text-align: left;  
+}
+.section_description--about-website {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    margin: 0 ;
+    margin-bottom: 30px;
+
+}
+.paragraph--about-website {
+    color: black;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: right;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+.container__main-section {
+    border: none;
+}
+.main__section--table {
+    width: 100%;
+    border: 2px solid #A2E2E5;
+    margin: 30px 0;
+    
+}
+.container__main--a{
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.list-social {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 30px;
+}
+.container__main--a{
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.container_main--hr {
+    text-align: center;
+}
+.footer__address--text-link {
+    display: none;
+}
+.container > * {
+    padding: 30px 10px;
+}
+.container__footer {
+    display: flex;
+    width: 100%;
+    background-color: #386785;
+    grid-area: footer;
+}
+.footer__address--list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.footer__address--list a {
+    margin: 0.3em;
+    text-decoration: none;      
+}
+a {
+    margin: 1.5em;
+    color:  #010203;
+}
+.container__footer {
+    flex-flow: column wrap;
+    justify-items: center;
+}
+.container__footer--p {
+    order: 1;
+    font-size: large;
+    align-self: center;
+}
+.container__footer--address {
+    order: 2;
+    margin: 50px 0 0 0;
+    align-self: center;
+}
+a:hover {
+    background-color: blue;
+    transform: scale(1.5);
+    color: white;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0  2px;
+    border-radius: 60%;
+}
+.fa-Twitt {
+    background-color: blueviolet;
+    color: white;
+}
+.fa-Twitt:hover {
+    background-color:darkolivegreen
+}
+.fa-Linked {
+    background-color: blueviolet;
+    color: white;
+}
+.fa-Linked:hover {
+    background-color: darkolivegreen;
+}
+.fa-Utube {
+    background-color: blueviolet;
+    color: white;
+
+}
+.fa-Utube:hover {
+    background-color: darkolivegreen;
+}
+a {
+    margin: 0.3em;
+    text-decoration: none;
+    font-size: 20px;
+    color:darkolivegreen;
+}
